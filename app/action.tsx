@@ -119,7 +119,7 @@ export const fetchAnimeDetails = async (id: string) => {
 };
 
 // Get streaming services for an anime
-export const getStreamingServices = (animeName: string): StreamingService[] => {
+export const getStreamingServices = async (animeName: string): Promise<StreamingService[]> => {
   // Create search URLs for popular streaming services
   const services: StreamingService[] = [
     {

@@ -2,7 +2,7 @@
 
 import { fetchAnimes } from "@/app/action";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { type JSX, useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import AnimeCard from "./AnimeCard";
