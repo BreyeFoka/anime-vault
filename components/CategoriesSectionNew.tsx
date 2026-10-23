@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { type JSX, useEffect, useState } from "react";
 import { fetchGenres, fetchAnimesByGenre, GenreProp } from "@/app/action";
 
 function CategoriesSection() {

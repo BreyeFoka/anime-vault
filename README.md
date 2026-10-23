@@ -64,7 +64,7 @@
 2. **Install dependencies**
 
    ```bash
-   npm install
+   pnpm install
    # or
    yarn install
    ```
@@ -72,7 +72,7 @@
 3. **Run the development server**
 
    ```bash
-   npm run dev
+   pnpm dev
    # or
    yarn dev
    ```
@@ -83,8 +83,8 @@
 ### Build for Production
 
 ```bash
-npm run build
-npm run start
+pnpm build
+pnpm start
 ```
 
 ---
